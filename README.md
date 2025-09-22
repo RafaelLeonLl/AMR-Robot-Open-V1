@@ -17,11 +17,11 @@ University AMR project. Open code and docs (Apache-2.0 for code, CC BY 4.0 for d
 ## Repository layout
 
 
-## Requirements & KPIs (extract)
+## Requirements & KPIs 
 - **StRS/SyRS** with measurable “shall” statements: speed ≤ 0.30 m/s, ramp 5°, E-Stop < 1 s, dimensions, noise, cost, 24 V LiFePO4 energy.  
 - **Traceability:** Requirement → Function/Architecture → Test case → Evidence (log/video).
 
-## Design & sizing (short)
+## Design & sizing
 Longitudinal dynamics for **force/torque**:  
 \( F_{tot} = F_{rr} + F_{grade} + F_{drag} + ma + F_{\omega} \), with \( J_{eq} = N_w J_w + N_d G^2 J_m \).  
 Wheel torque \( T_{wheel} = F_{tot} r_w \), motor torque \( T_m = T_{wheel}/(G \eta_g) \), traction check via friction \( \mu \).  
